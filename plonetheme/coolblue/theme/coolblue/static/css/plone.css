@@ -1,0 +1,22 @@
+#content-core {
+    width: 740px;
+}
+.ploneCalendar .weekdays th {
+    background-color: #2C76A6;
+}
+h3.feed-title a {
+    font-size: 1.2em;
+}
+#chronos-calendar th {
+    background-color: #2C76A6;
+}
+th#calendar-next a, th#calendar-previous a {
+    font-size: 20px!important;
+    color: #FFF!important;
+}
+#calendar-view-tabs {
+    display: none;
+}
+.navigationIcon {
+    display: none;
+}

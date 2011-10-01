@@ -19,7 +19,6 @@
     <copy content='//*[@id="portal-colophon"]' theme='//*[@id="footer-outer"]' />
     <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer-bottom"]' />
     <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="nav"]' />
-    <copy content='//*[@id="portal-logo"]' theme='//*[@id="logo-text"]' />
 
     <drop theme='//*[@id="slogan"]' />
     <drop theme='//*[@id="rss"]' />
@@ -28,8 +27,7 @@
     <drop attributes="id" css:content="#portal-globalnav" />
     <drop attributes="id" css:content="#portal-footer" />
     <drop attributes="class" css:content=".cell"/>
+    <drop css:content="#viewlet-above-content" />
 
     <append content='//*[@id="portal-siteactions"]' theme='//*[@id="footer-outer"]' />
-
-
 </rules>
