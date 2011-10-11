@@ -1,13 +1,14 @@
 #content-core {
     width: 740px;
 }
-.ploneCalendar .weekdays th {
-    background-color: #2C76A6;
+.navigationIcon {
+    display: none;
 }
 h3.feed-title a {
     font-size: 1.2em;
 }
-#chronos-calendar th {
+
+.ploneCalendar .weekdays th {
     background-color: #2C76A6;
 }
 th#calendar-next a, th#calendar-previous a {
@@ -17,6 +18,13 @@ th#calendar-next a, th#calendar-previous a {
 #calendar-view-tabs {
     display: none;
 }
-.navigationIcon {
-    display: none;
+
+/* chronos-calendar */
+#chronos-calendar th {
+    background-color: #2C76A6;
+}
+#chronos-calendar td div {
+    width: 75px;
+    margin-bottom: 1px;
+    word-wrap: break-word;
 }
