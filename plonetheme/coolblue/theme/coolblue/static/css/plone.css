@@ -1,13 +1,19 @@
-#content-core {
+#content-core, #parent-fieldname-title, #parent-fieldname-description {
     width: 740px;
 }
 .navigationIcon {
     display: none;
 }
+
+/* planet */
 h3.feed-title a {
     font-size: 1.2em;
 }
+h3.feed-title {
+    clear: both;
+}
 
+/* calendar */ 
 .ploneCalendar .weekdays th {
     background-color: #2C76A6;
 }
@@ -28,3 +34,4 @@ th#calendar-next a, th#calendar-previous a {
     margin-bottom: 1px;
     word-wrap: break-word;
 }
+
